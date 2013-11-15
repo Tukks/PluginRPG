@@ -1,8 +1,6 @@
 package plugin;
-import plugin.Plugin;
 
-
-public class MyPlugin implements Plugin {
+public class MyPlugin {
 
 	int x;
 	public void run() {
