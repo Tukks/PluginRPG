@@ -1,5 +1,8 @@
 package plugin;
 
+import annot.Item;
+
+
 public class MyPlugin {
  //Class pour test, a export en .Jar :)
 	int x;
@@ -7,6 +10,7 @@ public class MyPlugin {
 		super();
 	}
 	
+	@Item(icon = "test", nom = "test", type = "test")
 	public void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Hi, I'm MyPlugin");
