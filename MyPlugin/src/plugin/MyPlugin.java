@@ -2,7 +2,7 @@ package plugin;
 
 import annot.MyItem;
 
-
+@Item
 public class MyPlugin {
  //Class pour test, a export en .Jar :)
 	int x;
@@ -15,4 +15,5 @@ public class MyPlugin {
 		// TODO Auto-generated method stub
 		System.out.println("Hi, I'm MyPlugin");
 	}
+	
 }
