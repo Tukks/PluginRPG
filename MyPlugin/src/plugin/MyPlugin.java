@@ -1,16 +1,22 @@
 package plugin;
 
-import annot.MyItem;
+import annot.Item;
+import annot.TypeItem;
 
-@Item
+@Item(nom = "Epee", type = TypeItem.Arme)
 public class MyPlugin {
  //Class pour test, a export en .Jar :)
-	int x;
+	
+	int force;
+	
 	public MyPlugin(){
-		super();
+		this.force = 15;
 	}
 	
-	@MyItem(icon = "test", nom = "test", type = "test")
+	public int getForce() {
+		return force;
+	}
+
 	public void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Hi, I'm MyPlugin");
