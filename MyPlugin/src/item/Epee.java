@@ -1,12 +1,11 @@
-package plugin;
+package item;
 
 import annot.Item;
 import annot.TypeItem;
 
 @Item(nom = "Epee", type = TypeItem.Arme)
 public class Epee {
- //Class pour test, a export en .Jar :)
-	
+
 	int force;
 	
 	public Epee(){
