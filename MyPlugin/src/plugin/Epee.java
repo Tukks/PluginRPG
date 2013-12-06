@@ -4,12 +4,12 @@ import annot.Item;
 import annot.TypeItem;
 
 @Item(nom = "Epee", type = TypeItem.Arme)
-public class MyPlugin {
+public class Epee {
  //Class pour test, a export en .Jar :)
 	
 	int force;
 	
-	public MyPlugin(){
+	public Epee(){
 		this.force = 15;
 	}
 	
@@ -18,8 +18,7 @@ public class MyPlugin {
 	}
 
 	public void run() {
-		// TODO Auto-generated method stub
-		System.out.println("Hi, I'm MyPlugin");
+			System.out.println("Hi, I'm Epee");
 	}
 	
 }
