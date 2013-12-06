@@ -1,5 +1,10 @@
 package item;
 
+import annot.Item;
+import annot.TypeItem;
+
+
+@Item(nom = "Epee", type = TypeItem.Armure)
 public class Bouclier {
 
 	int defense;
