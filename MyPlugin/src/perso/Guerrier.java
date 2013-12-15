@@ -8,11 +8,11 @@ public class Guerrier {
 
 	private int pdv;
 	private int force;
-	private double def;
+	private double defense;
 
 	public Guerrier() {
 		this.pdv = 120;
-		this.def = 0.9;
+		this.defense = 15;
 		this.force = 60;
 	}
 
@@ -37,12 +37,12 @@ public class Guerrier {
 		this.force = force;
 	}
 
-	public double getDef() {
-		return def;
+	public double getDefense() {
+		return defense;
 	}
 
-	public void setDef(int def) {
-		this.def = def;
+	public void setDefense(int defense) {
+		this.defense = defense;
 	}
 
 }

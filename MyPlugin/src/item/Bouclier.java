@@ -13,7 +13,7 @@ public class Bouclier {
 		this.defense = 5;
 	}
 	
-	public int getForce() {
+	public int getDefense() {
 		return defense;
 	}
 
