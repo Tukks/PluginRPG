@@ -4,7 +4,7 @@ import annot.Item;
 import annot.TypeItem;
 
 
-@Item(nom = "Epee", type = TypeItem.Armure)
+@Item(nom = "Bouclier", type = TypeItem.Armure)
 public class Bouclier {
 
 	int defense;
@@ -15,9 +15,5 @@ public class Bouclier {
 	
 	public int getDefense() {
 		return defense;
-	}
-
-	public void run() {
-			System.out.println("Hi, I'm Bouclier");
 	}
 }

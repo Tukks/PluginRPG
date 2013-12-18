@@ -14,10 +14,5 @@ public class Epee {
 	
 	public int getForce() {
 		return force;
-	}
-
-	public void run() {
-			System.out.println("Hi, I'm Epee");
-	}
-	
+	}	
 }

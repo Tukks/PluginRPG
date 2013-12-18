@@ -21,12 +21,12 @@ public class Guerrier {
 		return getForce();
 	}
 
-	public int getPtDeVie() {
+	public int getPdv() {
 		return pdv;
 	}
 
-	public void setPtDeVie(int ptDeVie) {
-		this.pdv = ptDeVie;
+	public void setPdv(int pdv) {
+		this.pdv = pdv;
 	}
 
 	public int getForce() {
