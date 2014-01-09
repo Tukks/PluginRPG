@@ -3,12 +3,12 @@ package item;
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Epee", type = TypeItem.Arme)
-public class Epee {
-	
+@Item(nom = "Arc", type = TypeItem.Arme)
+public class Arc {
+
 	int force;
-	String def = "Coup d'épée";
-	public Epee(){
+	String def = "Lance fléches";
+	public Arc(){
 		
 		this.force = 15;
 	}
@@ -16,4 +16,5 @@ public class Epee {
 	public int getForce() {
 		return force;
 	}	
+
 }

@@ -8,10 +8,10 @@ public class Archer {
 
 	private int pdv;
 	private int force;
-	private double defense;
+	private int defense;
 	
 	public Archer() {
-		this.pdv = 90;
+		this.pdv = 1000;
 		this.defense = 10;
 		this.force = 90;
 	}
@@ -37,7 +37,7 @@ public class Archer {
 		this.force = force;
 	}
 
-	public double getDefense() {
+	public int getDefense() {
 		return defense;
 	}
 

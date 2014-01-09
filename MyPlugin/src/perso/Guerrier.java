@@ -8,7 +8,7 @@ public class Guerrier {
 
 	private int pdv;
 	private int force;
-	private double defense;
+	private int defense;
 
 	public Guerrier() {
 		this.pdv = 120;
@@ -37,7 +37,7 @@ public class Guerrier {
 		this.force = force;
 	}
 
-	public double getDefense() {
+	public int getDefense() {
 		return defense;
 	}
 
