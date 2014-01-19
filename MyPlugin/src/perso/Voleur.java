@@ -13,7 +13,7 @@ public class Voleur {
 	public Voleur() {
 		this.pdv = 190;
 		this.defense = 25;
-		this.force = 60;
+		this.force = 50;
 	}
 
 	@Attaque
