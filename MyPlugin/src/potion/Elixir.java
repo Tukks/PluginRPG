@@ -1,15 +1,14 @@
-package item;
-
+package potion;
 
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Elixir auto", type = TypeItem.Potion, classe="All")
-public class ElixirAuto {
+@Item(nom = "Elixir", type = TypeItem.Potion, classe="All")
+public class Elixir {
 	
 	int pdv;
 	
-	public ElixirAuto(){
+	public Elixir(){
 		pdv = 10;
 	}
 	

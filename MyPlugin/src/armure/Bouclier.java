@@ -1,4 +1,4 @@
-package item;
+package armure;
 
 import annot.Item;
 import annot.TypeItem;
@@ -10,7 +10,7 @@ public class Bouclier {
 	int defense;
 	
 	public Bouclier(){
-		this.defense = 5;
+		this.defense = 15;
 	}
 	
 	public int getDefense() {

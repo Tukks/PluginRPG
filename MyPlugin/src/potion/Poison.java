@@ -1,4 +1,4 @@
-package item;
+package potion;
 
 import annot.Item;
 import annot.TypeItem;
