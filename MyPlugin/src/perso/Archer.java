@@ -3,7 +3,7 @@ package perso;
 import annot.Attaque;
 import annot.Classe;
 
-@Classe(nom = "Archer")
+@Classe(nom = "Archer", ico="img/classe.jpg")
 public class Archer {
 
 	private int pdv;
@@ -11,7 +11,7 @@ public class Archer {
 	private int defense;
 	
 	public Archer() {
-		this.pdv = 1000;
+		this.pdv = 140;
 		this.defense = 10;
 		this.force = 90;
 	}
