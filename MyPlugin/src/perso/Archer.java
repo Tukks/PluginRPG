@@ -3,7 +3,7 @@ package perso;
 import annot.Attaque;
 import annot.Classe;
 
-@Classe(nom = "Archer", ico="img/classe.jpg")
+@Classe(nom = "Archer", ico="img/archer.png")
 public class Archer {
 
 	private int pdv;
