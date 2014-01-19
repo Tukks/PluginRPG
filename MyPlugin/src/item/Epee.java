@@ -3,7 +3,7 @@ package item;
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Epee", type = TypeItem.Arme)
+@Item(nom = "Epee", type = TypeItem.Arme, classe="All")
 public class Epee {
 	
 	int force;

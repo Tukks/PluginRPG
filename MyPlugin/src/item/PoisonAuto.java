@@ -3,7 +3,7 @@ package item;
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Poison automatique", type = TypeItem.Poison)
+@Item(nom = "Poison automatique", type = TypeItem.Poison, classe="All")
 
 public class PoisonAuto {
 	int Pdv;

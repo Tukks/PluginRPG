@@ -4,7 +4,7 @@ package item;
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Elixir auto", type = TypeItem.Potion)
+@Item(nom = "Elixir auto", type = TypeItem.Potion, classe="All")
 public class ElixirAuto {
 	
 	int pdv;

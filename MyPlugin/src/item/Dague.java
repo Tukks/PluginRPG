@@ -3,11 +3,11 @@ package item;
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Gourdin", type = TypeItem.Arme)
-public class Gourdin {
+@Item(nom = "Dague", type = TypeItem.Arme, classe="Voleur,Guerrier")
+public class Dague {
 	int force;
 	String def = "Coup de gourdin";
-	public Gourdin(){
+	public Dague(){
 		this.force = 12;
 	}
 	

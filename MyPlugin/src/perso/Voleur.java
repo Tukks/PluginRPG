@@ -3,16 +3,17 @@ package perso;
 import annot.Attaque;
 import annot.Classe;
 
-@Classe(nom = "Geant", ico = "img/classe.jpg")
-public class Geant {
+@Classe(nom = "Guerrier", ico="img/classe.jpg")
+public class Voleur {
+
 	private int pdv;
 	private int force;
 	private int defense;
 
-	public Geant() {
-		this.pdv = 280;
-		this.defense = 50;
-		this.force = 80;
+	public Voleur() {
+		this.pdv = 190;
+		this.defense = 25;
+		this.force = 60;
 	}
 
 	@Attaque
@@ -43,4 +44,5 @@ public class Geant {
 	public void setDefense(int defense) {
 		this.defense = defense;
 	}
+
 }

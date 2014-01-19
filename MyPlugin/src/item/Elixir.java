@@ -3,7 +3,7 @@ package item;
 import annot.Item;
 import annot.TypeItem;
 
-@Item(nom = "Elixir", type = TypeItem.Potion)
+@Item(nom = "Elixir", type = TypeItem.Potion, classe="All")
 public class Elixir {
 	
 	int pdv;
